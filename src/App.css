@@ -241,3 +241,28 @@ link {
   width: 100%;
 }
 }
+
+
+/* Responsiveness for Reister page */
+@media(max-width:800px){
+  .bg-white {
+    background-color: #fff;
+    height: auto;
+    width: 57%;
+    padding: 3rem;
+    color: #000;
+}
+}
+
+@media (max-width:500px){
+  .bg-white {
+    background-color: #fff;
+    height: auto;
+    width: 90%;
+    padding: 2rem;
+    color: #000;
+}
+.person h1{
+  font-size: 20px;
+}
+}
