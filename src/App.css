@@ -266,3 +266,34 @@ link {
   font-size: 20px;
 }
 }
+
+/* The home page */
+.nav img{
+  width:40px;
+}
+
+.sect-1{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+}
+.sect-2 {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sect-3 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
