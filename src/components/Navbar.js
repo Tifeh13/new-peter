@@ -4,12 +4,12 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import logo from './logo.jpeg';
+import { IoLockOpen } from "react-icons/io5";
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" style={{ width: '100%' }}>
+    <Navbar expand="lg" className="bg-body-white p-3" style={{ width: '100%' }}>
       <Container fluid>
         <Navbar.Brand href="#" className='nav'> <img src={logo} alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -63,15 +63,10 @@ function NavScrollExample() {
               <NavDropdown.Item href="#action2">error</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
+            <div className="btn-nav">
+                <Button variant="outline-primary">  <IoLockOpen /> Sign up</Button>
+                <Button variant="outline-primary"> <IoLockOpen /> Log out </Button>
+            </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
