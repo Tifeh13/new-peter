@@ -1,8 +1,12 @@
 import '../App.css';
 import OffcanvasExample from '../components/Navbar';
+import { CiLocationOn } from "react-icons/ci";
+import { BsMagic } from "react-icons/bs";
+import { LuWallet } from "react-icons/lu";
 
 
-function Login() {
+
+function Home() {
   return (
     <div className="App">
 
@@ -105,6 +109,82 @@ function Login() {
             </div>
           </div>
         </div>
+
+        <div className="sect-1">
+          <div className="sect-2">
+            <div className="sect-3">
+                <div className="popular">
+                  <div className="popular-1">
+                    <h2>Popular Categories</h2>
+                    <p>20+ Catetories work wating for you</p>
+                  </div>
+                  <div className="popular-2">
+                    <div className="pop-1">
+                      <h2>1800</h2>
+                      <p>Job Posted</p>
+                    </div>
+                    <div className="pop-1">
+                      <h2>4500</h2>
+                      <p>Tasks Posted</p>
+                    </div>
+                    <div className="pop-1">
+                      <h2>1500</h2>
+                      <p>Freelancers</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="sect-1">
+          <div className="sect-2">
+            <div className="sect-3">
+              <div className="design">
+                  <div className="box">
+                    <CiLocationOn />
+                    <h1>Design, Art & Multimedia</h1>
+                    <p>198 Open Positions</p>
+                  </div>
+                  <div className="box">
+                    <BsMagic />
+                    <h1>Education Training</h1>
+                    <p>198 Open Positions</p>
+                  </div>
+                  <div className="box">
+                    <LuWallet />
+                    <h1>Accounting/Finance</h1>
+                    <p>198 Open Positions</p>
+                  </div>
+                  <div className="box">
+                    <CiLocationOn />
+                    <h1>Design, Art & Multimedia</h1>
+                    <p>198 Open Positions</p>
+                  </div>
+                  <div className="box">
+                    <CiLocationOn />
+                    <h1>Design, Art & Multimedia</h1>
+                    <p>198 Open Positions</p>
+                  </div>
+                  <div className="box">
+                    <CiLocationOn />
+                    <h1>Design, Art & Multimedia</h1>
+                    <p>198 Open Positions</p>
+                  </div>
+                  <div className="box">
+                    <CiLocationOn />
+                    <h1>Design, Art & Multimedia</h1>
+                    <p>198 Open Positions</p>
+                  </div>
+                  <div className="box">
+                    <CiLocationOn />
+                    <h1>Design, Art & Multimedia</h1>
+                    <p>198 Open Positions</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
     
     </div>
 
@@ -112,4 +192,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Home;

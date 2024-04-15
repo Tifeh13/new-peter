@@ -438,3 +438,91 @@ link {
   outline: none;
   border: none;
 }
+
+.popular{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.popular-1 h2{
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.popular-1 p{
+  color: #494949;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 28px;
+}
+.popular-2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  place-content: center;
+  gap: 20px;
+}
+.pop-1 h2{
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.pop-1 p{
+  color: #494949;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.design{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  place-content: center;
+  align-items: center;
+  width: 100%;
+}
+.box {
+  background-color: #fff;
+  padding: 2rem;
+  color: #2e55fa;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+.box:hover {
+  background-color: #2e55fa; /* Blue background color */
+  color: #fff; /* White text color */
+}
+/* Icon styling */
+.box svg {
+  width: 40px; /* Adjust the width of the icon */
+  height: 40px; /* Adjust the height of the icon */
+}
+
+/* Heading styling */
+.box h1 {
+  font-size: 1rem; /* Adjust the font size of the heading */
+  margin-top: 0.5rem; /* Add some margin at the top */
+}
+
+/* Paragraph styling */
+.box p {
+  font-size: 0.9rem; /* Adjust the font size of the paragraph */
+  margin-top: 0.3rem; /* Add some margin at the top */
+}
+
+
+.find{
+  padding-top: 2rem;
+}
